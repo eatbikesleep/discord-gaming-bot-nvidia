@@ -1,5 +1,10 @@
 # Discord Gaming Voice Bot (free NVIDIA stack)
 
+**Repository:** https://github.com/eatbikesleep/discord-gaming-bot-nvidia  
+**Terms of Service:** [TERMS_OF_SERVICE.md](./TERMS_OF_SERVICE.md) | **Privacy Policy:** [PRIVACY_POLICY.md](./PRIVACY_POLICY.md)
+
+> **Security note:** Never commit `.env` or your `nvapi-...` key to GitHub. `.env` is already in `.gitignore` — keep it that way.
+
 Talk to an AI gaming assistant by voice while you play on Xbox.
 Pipeline: Discord mic -> NVIDIA Parakeet (STT) -> NVIDIA-hosted LLM (streamed) -> NVIDIA Magpie (TTS) -> Discord voice. Talking over the bot interrupts it.
 One free NVIDIA API key covers all three services.
